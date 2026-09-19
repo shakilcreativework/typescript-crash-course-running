@@ -5,4 +5,7 @@ function divide(a:number, b:number):number{
     return a / b;
 }
 
-console.log(divide(10, 5));
+console.log(divide(15, 5));
+
+const result = divide(32, 2);
+console.log(result.toFixed(2));
